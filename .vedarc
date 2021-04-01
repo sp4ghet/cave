@@ -1,0 +1,40 @@
+{
+  "audio": true, // Enable audio input
+  "glslify": true,
+  "midi": true,
+  "pixelRatio": 1.,
+  "camera": true,
+  "frameskip": 2,
+  "fftSmoothingTimeConstant": .01,
+  "fftSize": "8192",
+  IMPORTED: {
+    texNoise:{
+      "PATH": "./images/fbm2.jpg"
+    },
+    texDither:{
+      "PATH": "./images/dither.png"
+    },
+    texFont:{
+      "PATH": "./images/text.png"
+    },
+    noireW:{
+      "PATH": "./images/NOIRE_LOGO_WHITE.png"
+    },
+    texJSP:{
+      "PATH": "./images/jsp.png"
+    },
+    texDots:{
+      "PATH": "./images/dots.png"
+    },
+    texCave:{
+    "PATH": "./images/cave_logo.png"
+    },
+    texZenith:{
+      "PATH": "./images/zenith-logo-black-circle-notext-trans.png"
+    },
+    spin:{
+      "PATH": "./images/spin.mp4",
+      "SPEED": "4"
+    },
+  },
+}
